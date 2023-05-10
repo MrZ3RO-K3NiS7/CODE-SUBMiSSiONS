@@ -9,17 +9,17 @@ void solve()
 {
     str S;
     cin >> S;
-    for (int i = 0; i < S.size();i++)
+    for (int i = 0; i < S.size(); i++)
     {
-        if((S[i]-'0') > (9-(S[i])+'0') && (S[0]-'0') != 9)
+        if ((S[i] - '0') > (9 - (S[i]) + '0') && (S[0] - '0') != 9)
         {
-            S[i] = (9-(S[i])+'0');
+            S[i] = (9 - (S[i]) + '0');
         }
         else
         {
-            S[i]=S[i]-'0';
+            S[i] = S[i] - '0';
         }
-        cout << S[i]-'\0';
+        cout << S[i] - '\0';
     }
 }
 
