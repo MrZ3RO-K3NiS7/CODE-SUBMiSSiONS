@@ -7,7 +7,7 @@ using namespace std;
 
 Nice_To_Meet_U
 {
-    str N, M;
+    str N;
     ll i, K, X, Y, Z, MX, Q = 0;
     cin >> N;
     K = N.size();
