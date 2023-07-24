@@ -12,6 +12,11 @@ int maxHeight(TreeNode<int> *root)
 int diameterOfBinaryTree(TreeNode<int> *root)
 {
     mx = 0;
-    int H = maxHeight(root);
-    return mx;
+
+    //! int H = maxHeight(root);
+    //! return mx;
+
+    //? int l = maxHeight(root->left);
+    //? int r = maxHeight(root->right);
+    //? return max(mx, l+r);
 }
